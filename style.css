@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 5em;
+  margin: 0 auto;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid grey;
+  height: 15px;
+  width: 15px;
+}
+
+#grid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 720px;
+}
+
+.red {
+  background-color: red;
+  border-color: red;
+}
