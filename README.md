@@ -1,3 +1,3 @@
 # Pxlr
 
-## Pixel Art Maker
+A simple pixel art maker
