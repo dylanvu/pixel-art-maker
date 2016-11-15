@@ -44,7 +44,6 @@
     if (e.target.id === 'grid') {
       return;
     }
-    console.log(e.target);
     if (e.target.classList.item(1) !== currentColor) {
       e.target.classList.remove(e.target.classList.item(1));
       e.target.classList.add(currentColor);
