@@ -60,6 +60,10 @@ h3 {
   width: 15px;
 }
 
+.pixel:hover {
+  background-color: lightgrey;
+}
+
 .palleteColor {
   border-radius: 50%;
   margin: 10px;
@@ -71,7 +75,7 @@ h3 {
   cursor: pointer;
 }
 
-.currentColorIndicator {
+.colorIndicator {
   border-radius: 3px;
   margin: 10px;
   height: 30px;

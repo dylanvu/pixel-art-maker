@@ -33,12 +33,14 @@
     pallete.appendChild(palleteColor);
   }
 
+  // Set default color
   let currentColor = 'black';
 
+  // Create current color indicator
   const currentColorIndicator = document.createElement('div');
   const indicatorText = document.createElement('h3');
-  indicatorText.innerHTML = "Current color >";
-  currentColorIndicator.classList.add('currentColorIndicator', currentColor);
+  indicatorText.innerHTML = "Current color: ";
+  currentColorIndicator.classList.add('colorIndicator', currentColor);
   pallete.appendChild(indicatorText)
   pallete.appendChild(currentColorIndicator);
 
@@ -57,7 +59,7 @@
     if (e.target.id === 'pallete') {
       return;
     }
-    if (e.target.classList.item(0) === 'currentColorIndicator') {
+    if (e.target.classList.item(0) === 'colorIndicator') {
       return;
     }
     currentColorIndicator.classList.remove(currentColor);
