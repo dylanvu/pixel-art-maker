@@ -55,13 +55,13 @@ h3 {
 
 .pixel {
   background-color: white;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   height: 15px;
   width: 15px;
 }
 
 .pixel:hover {
-  background-color: lightgrey;
+  background-color: rgba(192, 192, 192, 0.3);
 }
 
 .palleteColor {
