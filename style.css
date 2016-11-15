@@ -10,6 +10,12 @@ h1 {
   font-weight: lighter;
   font-size: 5em;
   margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 720px;
 }
 
 .pixel {
@@ -19,11 +25,10 @@ h1 {
   width: 15px;
 }
 
-#grid {
-  margin: 0 auto;
+#grid,
+#pallete {
   display: flex;
   flex-wrap: wrap;
-  width: 720px;
 }
 
 .red {
