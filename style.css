@@ -24,6 +24,11 @@ main {
   flex-wrap: wrap;
 }
 
+#pallete {
+  margin: 10px;
+  justify-content: center;
+}
+
 .pixel {
   background-color: white;
   border: 1px solid grey;
@@ -36,6 +41,13 @@ main {
   width: 40px;
   border: 1px solid black !important;
   border-radius: 50%;
+}
+
+.currentColorIndicator {
+  height: 30px;
+  width: 60px;
+  border: 1px solid black !important;
+  border-radius: 3px;
 }
 
 .red {

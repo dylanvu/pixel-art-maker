@@ -33,24 +33,33 @@
     pallete.appendChild(palleteColor);
   }
 
-  // Event handlers
-  let brushColor = 'black';
+  let currentColor = 'black';
 
+  const currentColorIndicator = document.createElement('div');
+  currentColorIndicator.classList.add('currentColorIndicator', currentColor)
+  pallete.appendChild(currentColorIndicator);
+
+  // Event handlers
   grid.addEventListener('click', (e) => {
     if (e.target.id === 'grid') {
       return;
     }
     console.log(e.target);
-    e.target.classList.add(brushColor);
+    if (e.target.classList.item(1) !== currentColor) {
+      e.target.classList.remove(e.target.classList.item(1));
+      e.target.classList.add(currentColor);
+    }
   });
 
   pallete.addEventListener('click', (e) => {
     if (e.target.id === 'pallete') {
       return;
     }
-    console.log(e.target);
-    brushColor = e.target.classList.item(1);
+    if (e.target.classList.item(0) === 'currentColorIndicator') {
+      return;
+    }
+    currentColorIndicator.classList.remove(e.target.classList.item(1));
+    currentColor = e.target.classList.item(1);
+    currentColorIndicator.classList.add(currentColor);
   })
-
-
 })();
