@@ -18,6 +18,12 @@ main {
   width: 720px;
 }
 
+#grid,
+#pallete {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .pixel {
   background-color: white;
   border: 1px solid grey;
@@ -25,10 +31,11 @@ main {
   width: 15px;
 }
 
-#grid,
-#pallete {
-  display: flex;
-  flex-wrap: wrap;
+.palleteColor {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black !important;
+  border-radius: 50%;
 }
 
 .red {
