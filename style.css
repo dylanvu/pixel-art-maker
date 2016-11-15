@@ -35,3 +35,43 @@ main {
   background-color: red;
   border-color: red;
 }
+
+.orange {
+  background-color: orange;
+  border-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+  border-color: yellow;
+}
+
+.green {
+  background-color: green;
+  border-color: green;
+}
+
+.blue {
+  background-color: blue;
+  border-color: blue;
+}
+
+.violet {
+  background-color: violet;
+  border-color: violet;
+}
+
+.black {
+  background-color: black;
+  border-color: black;
+}
+
+.grey {
+  background-color: grey;
+  border-color: grey;
+}
+
+.white {
+  background-color: white;
+  border-color: white;
+}
