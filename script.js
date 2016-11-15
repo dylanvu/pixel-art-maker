@@ -36,7 +36,10 @@
   let currentColor = 'black';
 
   const currentColorIndicator = document.createElement('div');
-  currentColorIndicator.classList.add('currentColorIndicator', currentColor)
+  const indicatorText = document.createElement('h3');
+  indicatorText.innerHTML = "Current color >";
+  currentColorIndicator.classList.add('currentColorIndicator', currentColor);
+  pallete.appendChild(indicatorText)
   pallete.appendChild(currentColorIndicator);
 
   // Event handlers
