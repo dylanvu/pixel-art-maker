@@ -60,7 +60,7 @@
     if (e.target.classList.item(0) === 'currentColorIndicator') {
       return;
     }
-    currentColorIndicator.classList.remove(e.target.classList.item(1));
+    currentColorIndicator.classList.remove(currentColor);
     currentColor = e.target.classList.item(1);
     currentColorIndicator.classList.add(currentColor);
   })
